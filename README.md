@@ -6,6 +6,21 @@ This repository documents a public reference implementation journey for an Agent
 
 The goal is to demonstrate enterprise-grade architecture, naming standards, governance, ALM discipline, integration boundaries, and implementation guidance for a modern Dynamics 365 CE and Power Platform solution.
 
+## Repository map
+
+| Folder | Purpose |
+|---|---|
+| `docs/architecture` | Architecture contract, delivery model, operations, testing, ALM, and release gates. |
+| `docs/standards` | Naming and creation standards for all ASO components. |
+| `docs/decisions` | Phase decisions, deferred items, and completion records. |
+| `docs/risks` | Risks, assumptions, controls, and customer-ready checklists. |
+| `power-platform` | Dataverse, Dynamics 365 Sales, Power Platform solutions, connection references, variables, and flows. |
+| `customer-insights` | Customer Insights - Journeys communication plane. |
+| `azure` | Azure resource foundation, APIM, Functions, Key Vault, and telemetry. |
+| `sap` | SAP wrapper/API integration standard. |
+| `foundry` | Microsoft Foundry and Dynamics 365 Sales AI agent standards. |
+| `hubspot` | HubSpot ingress-last standard. |
+
 ## Current status
 
 Phase 1 completed:
